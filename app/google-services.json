@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "212315997945",
+    "firebase_url": "https://integratedsystem-86551-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "integratedsystem-86551",
+    "storage_bucket": "integratedsystem-86551.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212315997945:android:20dc9333ab65154b338428",
+        "android_client_info": {
+          "package_name": "com.example.integratedsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212315997945-e1bfpa6l4agcfi2okroe1tonascqoj3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-cDvLTGFgzvETxZ7fB9A9DSsp16CeWw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212315997945-e1bfpa6l4agcfi2okroe1tonascqoj3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

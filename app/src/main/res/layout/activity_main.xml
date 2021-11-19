@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bkgrnd"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="72dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="186dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="451dp"
+        android:textSize="35sp"
+        tools:text="-" />
+
+    <TextView
+        android:id="@+id/soil"
+        android:layout_width="72dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="326dp"
+        android:layout_marginEnd="276dp"
+        android:layout_marginBottom="311dp"
+        android:textSize="35sp"
+        tools:text="-" />
+
+    <TextView
+        android:id="@+id/lamp"
+        android:layout_width="72dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="326dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="311dp"
+        android:textSize="35sp"
+        tools:text="-" />
+
+    <ImageView
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="219dp"
+        android:layout_marginBottom="425dp"
+        android:padding="10dp"
+        android:src="@drawable/templogo" />
+
+    <ImageView
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="424dp"
+        android:padding="10dp"
+        android:src="@drawable/humidity" />
+
+    <ImageView
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="290dp"
+        android:padding="10dp"
+        android:src="@drawable/moistlogo" />
+
+    <ImageView
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="301dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="286dp"
+        android:padding="10dp"
+        android:src="@drawable/lamp" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/pumpsw"
+        android:layout_width="144dp"
+        android:layout_height="106dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="504dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="72dp"
+        android:showText="true"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"
+        app:showText="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginEnd="268dp"
+        android:layout_marginBottom="179dp"
+        android:text="Pump"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/lampsw"
+        android:layout_width="144dp"
+        android:layout_height="106dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="504dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="72dp"
+        android:showText="true"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"
+        app:showText="true" />
+
+    <TextView
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="253dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="180dp"
+        android:text="Lamp"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="72dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="276dp"
+        android:layout_marginBottom="449dp"
+        android:textSize="35sp"
+        tools:text="-" />
+
+    <Button
+        android:id="@+id/logoutbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="613dp"
+        android:layout_marginEnd="155dp"
+        android:backgroundTint="@color/navy"
+        android:text="LOGOUT" />
+
+</RelativeLayout>
